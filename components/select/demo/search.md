@@ -39,6 +39,7 @@ ReactDOM.render(
     onChange={handleChange}
     onFocus={handleFocus}
     onBlur={handleBlur}
+    value=null
     filterOption={(input, option) => option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
   >
     <Option value="jack">Jack</Option>
